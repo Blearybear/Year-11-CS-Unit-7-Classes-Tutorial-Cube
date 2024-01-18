@@ -7,4 +7,7 @@ Create a class called Cube. Cube has one single private integer variable called 
 
 Cube{side=4} .
 
-The Cube class has two constructors. One takes no arguments (has no parameters) and sets side to 1. The other will take a single integer argument that is used to initialize the side property. Side should never be less than 1. If a user attempts to create a Cube with a side length less than 1, an IllegalArgumentException will be thrown. The message “A cube’s side length cannot be less than 1!” will be displayed in the console when the exception occurs. If a user attempts to change the side length of an already existing Cube to a value less than 1, again, an IllegalArgumentException will be thrown, and the message “A cube’s side length cannot be less than 1!” will be displayed in the console when the exception occurs.
+The Cube class has two constructors. 
+One takes no arguments (has no parameters) and sets side to 1. 
+The other will take a single integer argument that is used to initialize the side property. 
+Side should never be less than 1. If a user attempts to create a Cube with a side length less than 1, an IllegalArgumentException will be thrown. The message “A cube’s side length cannot be less than 1!” will be displayed in the console when the exception occurs. If a user attempts to change the side length of an already existing Cube to a value less than 1, again, an IllegalArgumentException will be thrown, and the message “A cube’s side length cannot be less than 1!” will be displayed in the console when the exception occurs.
